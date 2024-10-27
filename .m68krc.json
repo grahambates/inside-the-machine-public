@@ -1,0 +1,13 @@
+{
+    "includePaths":  [ "../includes", ""],
+
+  "format": {
+    "case": {
+      "instruction": "lower"
+    }
+  },
+  "completion": {
+    "instructionDocs": false,
+    "signatures": false
+  }
+}

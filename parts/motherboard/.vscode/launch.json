@@ -1,0 +1,79 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+
+    {
+      "type": "amiga-assembly",
+      "request": "launch",
+      "name": "Amiga Assembly: A500",
+      "stopOnEntry": false,
+      "program": "${workspaceFolder}/out/a.debug.exe",
+      "remoteProgram": "SYS:a.exe",
+      "emulatorType": "fs-uae",
+      "emulatorArgs": [
+        "--hard_drive_0=${workspaceFolder}/../../emulator/hd0",
+        "--automatic_input_grab=0",
+        "--hide_hud=1",
+        "--window_resizable=1",
+        "--console_debugger=1",
+        "--stdout"
+      ],
+      "preLaunchTask": "build-hunks"
+    },
+    {
+      "type": "amiga-assembly",
+      "request": "launch",
+      "name": "Amiga Assembly: A1200",
+      "stopOnEntry": false,
+      "program": "${workspaceFolder}/out/a.debug.exe",
+      "remoteProgram": "SYS:a.exe",
+      "emulatorType": "fs-uae",
+      "emulatorArgs": [
+        "--hard_drive_0=${workspaceFolder}/../../emulator/hd0",
+        "--automatic_input_grab=0",
+        "--amiga_model=A1200"
+      ],
+      "preLaunchTask": "build-hunks"
+    },
+    {
+      "type": "amiga-assembly",
+      "request": "launch",
+      "name": "Amiga Assembly: A4000",
+      "stopOnEntry": false,
+      "program": "${workspaceFolder}/out/a.debug.exe",
+      "remoteProgram": "SYS:a.exe",
+      "emulatorType": "fs-uae",
+      "emulatorArgs": [
+        "--hard_drive_0=${workspaceFolder}/../../emulator/hd0",
+        "--automatic_input_grab=0",
+        "--amiga_model=A4000",
+        "--chip_memory=2048",
+        "--fast_memory=2048"
+      ],
+      "trace": false,
+      "preLaunchTask": "build-hunks"
+    },
+    {
+      "type": "amiga",
+      "request": "launch",
+      "preLaunchTask": "build-elf",
+      "name": "Bartman: A500",
+      "config": "A500",
+      "program": "${workspaceFolder}/${config:amiga.program}",
+      "kickstart": "${config:amiga.rom-paths.A500}",
+      "internalConsoleOptions": "openOnSessionStart",
+      "emuargs": ["--floppy_drive_0_sounds=off"]
+    },
+    {
+      "type": "amiga",
+      "request": "launch",
+      "preLaunchTask": "build-elf",
+      "name": "Bartman: A1200",
+      "config": "A1200",
+      "program": "${workspaceFolder}/${config:amiga.program}",
+      "kickstart": "${config:amiga.rom-paths.A1200}",
+      "internalConsoleOptions": "openOnSessionStart",
+      "emuargs": ["--floppy_drive_0_sounds=off"]
+    }
+  ]
+}

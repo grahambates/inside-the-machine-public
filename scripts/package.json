@@ -1,0 +1,17 @@
+{
+  "name": "probe-tex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-libpng": "^0.2.20",
+    "perlin-noise": "^0.0.1",
+    "pngjs": "^7.0.0",
+    "yargs": "^17.7.2"
+  }
+}

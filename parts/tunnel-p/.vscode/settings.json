@@ -1,0 +1,27 @@
+{
+  "m68k.includePaths": [
+    "${workspaceRoot}/../../common",
+    "${workspaceRoot}/../../includes",
+    "${workspaceRoot}/../../demo",
+    "/Users/BatesGW1/.vscode/extensions/bartmanabyss.amiga-debug-1.7.7/bin/darwin/opt/m68k-amiga-elf/sys-include"
+  ],
+  "m68k.vasm.provideDiagnostics": false,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": false,
+  "amiga.program": "out/a",
+  "[m68k]": {
+    "editor.rulers": []
+  },
+  "workbench.colorCustomizations": {
+    "titleBar.border": "#9300d7",
+    "titleBar.activeBackground": "#ffbb00",
+    "titleBar.activeForeground": "#202020",
+    "titleBar.inactiveBackground": "#807700",
+    "titleBar.inactiveForeground": "#101010",
+    "statusBar.background": "#9300d7",
+    "statusBar.noFolderBackground": "#505050",
+    "statusBar.debuggingBackground": "#ff5000",
+    "quickInput.background": "#9300d7",
+    "activityBar.background": "#9300d7"
+  }
+}

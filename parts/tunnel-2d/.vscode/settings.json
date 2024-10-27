@@ -1,0 +1,15 @@
+{
+  "m68k.includePaths": [
+    "${workspaceRoot}/../../common",
+    "${workspaceRoot}/../../includes",
+    "${workspaceRoot}/../../demo",
+    "/Users/BatesGW1/.vscode/extensions/bartmanabyss.amiga-debug-1.7.7/bin/darwin/opt/m68k-amiga-elf/sys-include"
+  ],
+  "m68k.vasm.provideDiagnostics": false,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": false,
+  "amiga.program": "out/a",
+  "[m68k]": {
+    "editor.rulers": []
+  }
+}

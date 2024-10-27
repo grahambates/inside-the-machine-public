@@ -1,0 +1,25 @@
+music/inside_the_machine.lsmusic -n tune.lsmus -zx0
+music/inside_the_machine.lsbank -n tune.lsbnk -cm -zx0 -d8
+parts/motherboard/out/a.hd.bin -n Motherboard -dos -zx0
+parts/amiga/out/a.hd.bin -n Amiga -dos -zx0
+parts/title/out/a.hd.bin -n Title -dos -zx0
+parts/tunnel-2d/out/a.hd.bin -n Tunnel2D -dos -zx0
+parts/face-lights/out/a.hd.bin -n FaceLights -dos -zx0
+parts/roto/out/a.hd.bin -n Roto -dos -zx0
+parts/circuit-g/out/a.hd.bin -n CircuitG -dos -zx0
+parts/combo/out/a.hd.bin -n Combo -dos -zx0
+parts/circuit-m/out/a.hd.bin -n CircuitM -dos -zx0
+parts/tmap/out/a.hd.bin -n Tmap -dos -zx0
+parts/circuit-p/out/a.hd.bin -n CircuitP -dos -zx0
+parts/tunnel-s/out/a.hd.bin -n TunnelS -dos -zx0
+parts/tunnel-m/out/a.hd.bin -n TunnelM -dos -lz4
+parts/circuit-s/out/a.hd.bin -n CircuitS -dos -zx0
+parts/tunnel-g/out/a.hd.bin -n TunnelG -dos -zx0
+parts/text1/out/a.hd.bin -n Text1 -dos -zx0
+parts/tunnel-p/out/a.hd.bin -n TunnelP -dos -zx0
+parts/text2/out/a.hd.bin -n Text2 -dos -zx0
+parts/tunnelx4/out/a.hd.bin -n TunnelX4 -dos -zx0
+parts/text3/out/a.hd.bin -n Text3 -dos -zx0
+parts/tunnel-r/out/a.hd.bin -n TunnelR -dos -zx0
+parts/credits/out/a.hd.bin -n Credits -dos -zx0
+parts/end/out/a.hd.bin -n End -dos -zx0

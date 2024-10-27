@@ -1,0 +1,26 @@
+demo/trackmo_launcher.bin -n PlatOS -zx0
+music/inside_the_machine.lsmusic -n tune.lsmus -zx0
+music/inside_the_machine.lsbank -n tune.lsbnk -cm -zx0 -d8
+parts/motherboard/out/a.bin -n Motherboard -dos -zx0
+parts/amiga/out/a.bin -n Amiga -dos -zx0
+parts/title/out/a.bin -n Title -dos -zx0
+parts/tunnel-2d/out/a.bin -n Tunnel2D -dos -zx0
+parts/face-lights/out/a.bin -n FaceLights -dos -zx0
+parts/roto/out/a.bin -n Roto -dos -zx0
+parts/circuit-g/out/a.bin -n CircuitG -dos -zx0
+parts/combo/out/a.bin -n Combo -dos -zx0
+parts/circuit-m/out/a.bin -n CircuitM -dos -zx0
+parts/tmap/out/a.bin -n Tmap -dos -zx0
+parts/circuit-p/out/a.bin -n CircuitP -dos -zx0
+parts/tunnel-s/out/a.bin -n TunnelS -dos -zx0
+parts/tunnel-m/out/a.bin -n TunnelM -dos -lz4
+parts/circuit-s/out/a.bin -n CircuitS -dos -zx0
+parts/tunnel-g/out/a.bin -n TunnelG -dos -zx0
+parts/text1/out/a.bin -n Text1 -dos -zx0
+parts/tunnel-p/out/a.bin -n TunnelP -dos -zx0
+parts/text2/out/a.bin -n Text2 -dos -zx0
+parts/tunnelx4/out/a.bin -n TunnelX4 -dos -zx0
+parts/text3/out/a.bin -n Text3 -dos -zx0
+parts/tunnel-r/out/a.bin -n TunnelR -dos -zx0
+parts/credits/out/a.bin -n Credits -dos -zx0
+parts/end/out/a.bin -n End -dos -zx0
