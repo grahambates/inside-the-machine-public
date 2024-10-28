@@ -91,6 +91,7 @@ PRELOAD_TASK    macro
 ********************************************************************************
 LOAD_TASK       macro
 .load_\1:
+                bsr     fw_WaitForPartLoaded
                 bsr     fw_FlipAllocationDirection
                 lea     .\1(pc),a0
                 bsr     fw_LoadNextPart
@@ -101,6 +102,7 @@ LOAD_TASK       macro
 ********************************************************************************
 LOAD_PRECALC_TASK macro
 .load_\1:
+                bsr     fw_WaitForPartLoaded
                 bsr     fw_FlipAllocationDirection
                 lea     .\1(pc),a0
                 bsr     fw_LoadNextPart
