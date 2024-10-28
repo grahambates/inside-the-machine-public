@@ -38,10 +38,10 @@ endif
 demo/bootblock.bin: framework/bootblock.asm
 	$(VASM) -m68010 -Fbin -phxass -o $@ -I../includes $<
 
-demo/trackmo_launcher.bin: demo/trackmo_launcher.asm demo/trackmo_script.asm demo/trackmo_settings.i $(wildcard framework/*)
+demo/trackmo_launcher.bin: demo/trackmo_launcher.asm demo/trackmo_script.asm demo/trackmo_script.i demo/trackmo_settings.i $(wildcard framework/*)
 	$(VASM) -m68000 -Fbin -phxass -o $@ -I../includes $<
 
-$(exe): demo/hd_launcher.asm demo/hddemo.adf demo/trackmo_script.asm demo/hdtrackmo_settings.i $(wildcard framework/*)
+$(exe): demo/hd_launcher.asm demo/hddemo.adf demo/trackmo_script.asm demo/trackmo_script.i demo/hdtrackmo_settings.i $(wildcard framework/*)
 	$(VASM) -m68000 -Fhunkexe -kick1hunks -phxass -o $@ -I../includes $<
 
 #-------------------------------------------------------------------------------
