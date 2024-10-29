@@ -211,8 +211,8 @@ UpdatePal:
                 move.w  (a0)+,(a1)+
                 move.w  (a0)+,(a1)+
 
-                clr.w   color17(a5)
-                clr.w   color21(a5)
+                move.w  #$000,color17(a5)
+                move.w  #$000,color21(a5)
 
                 rts
 
