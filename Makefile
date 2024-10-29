@@ -20,6 +20,8 @@ outputs = \
 	$(adf) \
 	$(exe)
 
+all: $(adf) $(exe)
+
 $(adf): $(music) parts demo/bootblock.bin demo/trackmo_launcher.bin demo/layout.txt
 ifdef OS
 	powershell -Command '$$env:PATH = ".\\bin\\win"; $(PLATOSADF) -ndb 4 --label INTHMACH -f $@ demo/bootblock.bin demo/layout.txt'
