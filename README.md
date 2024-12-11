@@ -15,3 +15,4 @@ Amiga OCS demo released at [Deadline Party](https://www.demoparty.berlin/) in Be
 - [Ma2e](https://demozoo.org/sceners/5371/): Music
 - [Platon](https://demozoo.org/sceners/16072/): Framework
 - [RamonB5](https://demozoo.org/sceners/3857/): Support
+- [Andrey Dudka](https://blenderartists.org/t/feyd-rautha-harkonnen-dune-2-likeness-sculpt-and-animation/1466296): Face 3D object
